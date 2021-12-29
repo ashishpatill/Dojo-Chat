@@ -2,7 +2,7 @@
  
 ## Setup
 
-###A. Xcode
+### A. Xcode
 
 1. Create Project
 2. Copy the bundle identifier (com.yourName.projectName)
@@ -32,7 +32,7 @@
 	~~~
    
 
-###B. Firebase Console
+### B. Firebase Console
 
 1. Create a new project
 2. Choose location for server nearest to your country
@@ -41,7 +41,7 @@
 5. Make sure under rules for Realtime database, read and write permissions are set to true
 6. Download the *GoogleService-Info.plist* file from settings and add to your xcode project
 
-###C. Helpful links
+### C. Helpful links
 1. [How to add Firebase to your app](https://firebase.google.com/docs/ios/setup)
 2. [Installation and setup for iOS](https://firebase.google.com/docs/database/ios/start)
 3. [How to structure your data](https://firebase.google.com/docs/database/ios/structure-data)
