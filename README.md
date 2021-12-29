@@ -14,12 +14,14 @@
 6. *import FirebaseDatabase* in Database Manager class
 7. To read from database use:
 
-   ~~~swift
-   ref.child("users").observeSingleEvent(of: .value)
-   ~~~
+    ~~~swift
+    // Fetching object from firebase only once
+    ref.child("users").observeSingleEvent(of: .value)
+    ~~~
+   
 8. To create new value use:
-	
-	~~~swift
+
+    ~~~swift
 	// if database is empty
    	ref.child("users").setValue(allUserDict)
 	~~~
@@ -27,11 +29,10 @@
 9. To update values in database use:
 
 	~~~swift
-	//4. if database already contains users
-   	ref.child("users").updateChildValues([userID:user1])
+   // if database already contains users
+   ref.child("users").updateChildValues([userID:user1])
 	~~~
    
-
 ### B. Firebase Console
 
 1. Create a new project
